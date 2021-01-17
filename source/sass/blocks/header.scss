@@ -1,0 +1,53 @@
+.page-header {
+  display: flex;
+  height: 97px;
+  border-bottom: 1px solid rgba(225, 225, 225, 1);
+}
+
+.page-header__logo {
+
+  &--{
+    display: inline-block;
+  }
+}
+
+.page-header__search {
+  border: 1px solid rgba(225, 225, 225, 1);
+
+  &--input {
+    padding: 16px 14px;
+    width: 261px;
+    background: transparent;
+    border: none;
+  }
+
+  &--button {
+    padding: 16px 36px;
+    color: #ffffff;
+    background-color: rgba(64, 52, 50, 1);
+  }
+}
+
+input[type="search"]::placeholder {
+  color: rgba(159, 159, 159, 1);
+}
+
+.page-wrapper__header {
+  align-items: center;
+}
+
+.main-nav {
+  margin-left: -138px;
+  width: 519px;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+
+  &--link {
+    color: rgba(52, 48, 48, 1);
+  }
+}
