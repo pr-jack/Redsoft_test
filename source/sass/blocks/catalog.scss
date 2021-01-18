@@ -1,0 +1,43 @@
+.page-wrapper__catalog {
+  flex-direction: column;
+}
+
+.catalog {
+  padding-top: 45px;
+}
+
+.catalog__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.catalog__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__cart {
+  padding-top: 39px;
+}
+
+.cart__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.cart__footer {
+
+  &--price-past {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+  }
+
+  &--price-current {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
