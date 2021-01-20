@@ -18,7 +18,17 @@
 }
 
 .catalog__cart {
-  padding-top: 39px;
+  width: 280px;
+  margin-top: 39px;
+  border: 1px solid rgba(225, 225, 225, 1);
+}
+
+.cart__image {
+  width: 278px;
+}
+
+.cart__wrapper {
+  margin: 12px 24px 24px;
 }
 
 .cart__description {
@@ -28,6 +38,10 @@
 }
 
 .cart__footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  width: 230px;
 
   &--price-past {
     font-size: 14px;
@@ -39,5 +53,12 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+  }
+
+  &--button {
+    padding: 0;
+    width: 118px;
+    color:rgba(244, 246, 249, 1);
+    background: rgba(56, 46, 43, 1);
   }
 }
